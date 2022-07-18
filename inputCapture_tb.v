@@ -1,7 +1,7 @@
 // Code your testbench here
 module inputCapture_tb;
   reg clk,reset;
-  wire [3:0] count;
+  wire [7:0] count;
   reg signal;
   reg rstOutput;
   wire intFlag;
